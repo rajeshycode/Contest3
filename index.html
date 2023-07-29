@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Accio-Contest-3</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 my-3">
+      <div class="container-fluid me-2">
+        <a class="navbar-brand" href="#">Complex UI</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Section 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Section 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Section 3</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search" />
+            <button class="btn btn-outline-success" type="submit">
+              Search
+            </button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- crausal -->
+
+    <div
+      id="carouselExampleCaptions"
+      class="carousel slide carousel-fade"
+      data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="0"
+          class="active"
+          aria-current="true"
+          aria-label="Slide 1"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="https://images.unsplash.com/photo-1682685796063-d2604827f7b3?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80"
+            class="d-block w-100 cr-img"
+            class="d-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>First slide title</h5>
+            <p>First slide description</p>
+            <button class="btn btn-primary rounded">Call to action</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://plus.unsplash.com/premium_photo-1675348351049-3af664982b45?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwzOHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100 cr-img"
+            class="d-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Second slide title</h5>
+            <p>Second slide description</p>
+            <button class="btn btn-primary rounded">Call to action</button>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img
+            src="https://images.unsplash.com/photo-1683009427037-c5afc2b8134d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw1MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+            class="d-block w-100 cr-img"
+            class="d-block w-100"
+            alt="..." />
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Third slide title</h5>
+            <p>Second slide description</p>
+            <button class="btn btn-primary rounded">Call to action</button>
+          </div>
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!-- custom-css-flex -->
+
+    <div class="flex">
+      <div class="custom-css-flex-img">
+        <img
+          src="https://media.istockphoto.com/id/1383796215/photo/silhouette-of-man-holding-binoculars-on-mountain-peak-against-bright-sunlight-sky-background.jpg?s=1024x1024&w=is&k=20&c=QUKKZc4Xmh30nhFFAaZc2S6pOpoGcMVuc1cas4TgJbc="
+          alt=""
+          class="flex-img img-fluid" />
+        <p class="text-center">Short discrption</p>
+      </div>
+      <div class="custom-css-flex-img">
+        <img
+          src="https://media.istockphoto.com/id/1395420661/photo/on-top-of-the-mountain-ridge.jpg?s=1024x1024&w=is&k=20&c=htDX5QmqFgQ6Y0PnUZm2_17UGXu8mbkPkyyHYlovpFs="
+          alt=""
+          class="flex-img img-fluid" />
+        <p class="text-center">Short discrption</p>
+      </div>
+      <div class="custom-css-flex-img">
+        <img
+          src="https://media.istockphoto.com/id/1367075249/photo/rainforest-bridge.jpg?s=1024x1024&w=is&k=20&c=GefAIF44eW2vTp_WSfoAes6J8nYBvoS0dnBwnA4N0KA= "
+          alt=""
+          class="flex-img img-fluid" />
+        <p class="text-center">Short discrption</p>
+      </div>
+    </div>
+    <!-- custom-css-grid -->
+
+    <div class="custom-css-grid mt-5">
+      <div class="box-grid box-1">
+        <img
+          src="https://images.unsplash.com/photo-1619771365889-e9ecd225fc3b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=776&q=80"
+          alt=""
+          class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-2">
+        <img
+          src="https://images.unsplash.com/photo-1682417844065-07961597146e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw3OXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60"
+          alt=""
+          class="img-fluid grid-img grid-img-1" />
+      </div>
+      <div class="box-grid box-3">
+        <img src="https://images.unsplash.com/photo-1682685797828-d3b2561deef4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw3Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-4">
+        <img src="https://images.unsplash.com/photo-1690263914767-963579f9620c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw4NHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-5">
+        <img src="https://images.unsplash.com/photo-1682685794761-c8e7b2347702?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw5MXx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-6">
+        <img src="https://images.unsplash.com/photo-1682685797140-c17807f8f217?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHw5Nnx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-7">
+        <img src="https://images.unsplash.com/photo-1690205074022-560b3587cbc4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMDB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-8">
+        <img src="https://plus.unsplash.com/premium_photo-1673002093745-205f31f3784e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMTN8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+      <div class="box-grid box-9">
+        <img src="https://images.unsplash.com/photo-1690230677090-107f8f0ea512?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMjB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" alt="" class="img-fluid grid-img" />
+      </div>
+    </div>
+
+    <!-- bootstrap-card-section -->
+    <div class="card-section">
+      <div class="row justify-content-around align-items-center">
+        <div class="col-md-4 card-media">
+          <div class="card rounded shadow">
+            <img src="https://images.unsplash.com/photo-1690277432114-00052fe7435e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzB8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Card description</p>
+              <a href="#" class="btn btn-primary card-btn">Call to action</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 card-media">
+          <div class="card rounded shadow">
+            <img
+              src="https://images.unsplash.com/photo-1682685797661-9e0c87f59c60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxMzZ8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Card description</p>
+              <a href="#" class="btn btn-primary card-btn">Call to action</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4 card-media">
+          <div class="card rounded shadow">
+            <img
+              src="https://plus.unsplash.com/premium_photo-1670897797602-ce90c0e441e6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHwxNTV8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+              class="card-img-top"
+              alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <p class="card-text">Card description</p>
+              <a href="#" class="btn btn-primary card-btn">Call to action</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- link-section -->
+
+    <div class="link-section">
+      <div class="row">
+        <div class="col-lg-4 link-div">
+          <h3>Useful links</h3>
+          <ul>
+            <li><a href="#">Link 1</a></li>
+            <li><a href="#">Link 2</a></li>
+            <li><a href="#">Link 3</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 link-div">
+          <h3>More links</h3>
+          <ul>
+            <li><a href="#">Link 4</a></li>
+            <li><a href="#">Link 5</a></li>
+            <li><a href="#">Link 6</a></li>
+          </ul>
+        </div>
+        <div class="col-lg-4 link-div">
+          <h3>Contact Us</h3>
+          <p>Email: rkyadav0010@gmail.com</p>
+
+          <p id="phone">Phone: +1(555) 123-3433</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- copyright -section -->
+
+    <div
+      class="copyright-section d-flex flex-wrap justify-content-between mb-5">
+      <div>
+        <p>&copy; 2023 Complex UI. All Rights Reserved</p>
+      </div>
+      <div>
+        <a class="btn btn-primary" href="#top">Back to top</a>
+      </div>
+    </div>
+
+    <!-- bootstrap js files -->
+    <script
+      src="https://images.unsplash.com/photo-1682686581660-3693f0c588d2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxNzF8fHxlbnwwfHx8fHw%3D&auto=format&fit=crop&w=500&q=60"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+  </body>
+</html>
